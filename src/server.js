@@ -13,10 +13,9 @@ app.get('/', (req, res) => {
 
 cron.schedule('* * * * *', () => {
     console.log('Teste cron')
-})
-
-cron.schedule('0/42 * * * *', () => {
     BotController.priceDay();
 })
 
-app.listen(process.env.PORT || 8000)
+
+
+app.listen(process.env.PORT || 8000, () => console.log('HTTP Server Run!'))
