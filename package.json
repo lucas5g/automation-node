@@ -22,6 +22,7 @@
   "homepage": "https://github.com/lucas5g/automation-node#readme",
   "dependencies": {
     "axios": "^0.27.2",
+    "express": "^4.18.1",
     "node-cron": "^3.0.1",
     "uuid": "^8.3.2"
   },
