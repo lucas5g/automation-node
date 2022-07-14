@@ -15,7 +15,7 @@ cron.schedule('*/5 * * * * *', () => {
     console.log('Teste cron')
 })
 
-cron.schedule('0/34 * * * *', () => {
+cron.schedule('0/38 * * * *', () => {
     BotController.priceDay();
 })
 
