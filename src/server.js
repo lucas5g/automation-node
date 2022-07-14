@@ -11,11 +11,11 @@ app.get('/', (req, res) => {
     })
 })
 
-cron.schedule('*/5 * * * * *', () => {
+cron.schedule('* * * * *', () => {
     console.log('Teste cron')
 })
 
-cron.schedule('0/38 * * * *', () => {
+cron.schedule('0/42 * * * *', () => {
     BotController.priceDay();
 })
 
